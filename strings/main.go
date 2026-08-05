@@ -85,7 +85,7 @@ func main() {
 
 	for i, v := range s12 {
 		fmt.Println(i, v)
-		fmt.Println(string(v))
+		fmt.Printf("%T", v)
 	}
 
 }
