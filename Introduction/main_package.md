@@ -144,6 +144,7 @@ func main() {
 	connectDB()
 	startServer()
 }
+
 **Scenario 2: CLI Tools**
 
 Popular Go CLI applications use the main package to:

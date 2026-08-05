@@ -12,7 +12,7 @@ Go workspace solves this by allowing multiple local modules to work together sea
 
 ***Purpose of Go Workspace***
 
-Go workspace is mainly used to:
+**Go workspace is mainly used to:**
 
 Develop multiple modules simultaneously
 Test changes across related projects locally
