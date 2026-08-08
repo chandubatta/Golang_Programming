@@ -1,4 +1,4 @@
-package main
+package userinput
 
 import (
 	"bufio"
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func userinput() {
 	fmt.Println("welcome to our piza app")
 	r := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter the Rating :")
