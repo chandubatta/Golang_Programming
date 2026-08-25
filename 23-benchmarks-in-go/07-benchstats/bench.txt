@@ -1,0 +1,16 @@
+goos: darwin
+goarch: arm64
+pkg: benchbasics
+cpu: Apple M2 Max
+BenchmarkJoin-12    	      48	  24356751 ns/op
+BenchmarkJoin-12    	      50	  24281987 ns/op
+BenchmarkJoin-12    	      49	  24251399 ns/op
+BenchmarkJoin-12    	      49	  24644984 ns/op
+BenchmarkJoin-12    	      49	  24678742 ns/op
+BenchmarkJoin-12    	      39	  30403232 ns/op
+BenchmarkJoin-12    	      42	  30886614 ns/op
+BenchmarkJoin-12    	      34	  31184335 ns/op
+BenchmarkJoin-12    	      36	  31009381 ns/op
+BenchmarkJoin-12    	      38	  31177774 ns/op
+PASS
+ok  	benchbasics	12.147s
