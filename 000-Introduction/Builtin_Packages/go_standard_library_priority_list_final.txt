@@ -1,0 +1,127 @@
+GO STANDARD LIBRARY — PRACTICAL PACKAGE PRIORITY LIST
+
+Purpose: This file combines the original 50 packages from the supplied
+list with the newly recommended packages that were missing from that
+list.
+
+IMPORTANT: A plain .txt file cannot reliably display font colors.
+Therefore, the five priority levels are represented with colored-square
+labels:
+
+🔴 RED = Most important / Master 🟠 ORANGE = Next important / Strong
+working knowledge 🟡 YELLOW = Important / Working knowledge 🔵 BLUE =
+Useful / Learn as needed 🟢 GREEN = Specialized / Learn when needed
+
+The list is ordered from MOST IMPORTANT to LESS IMPORTANT.
+
+============================================================ 🔴 RED —
+MOST IMPORTANT
+============================================================
+
+1.  fmt
+2.  os
+3.  io
+4.  bufio
+5.  bytes
+6.  strings
+7.  strconv
+8.  errors
+9.  time
+10. context
+11. sync
+12. sync/atomic
+13. net
+14. net/http
+15. net/url
+16. encoding/json
+17. path/filepath
+18. regexp
+19. sort
+20. slices
+21. maps
+22. database/sql
+23. testing
+24. net/http/httptest
+25. log
+26. log/slog
+
+============================================================ 🟠 ORANGE —
+NEXT IMPORTANT
+============================================================
+
+27. flag
+28. os/exec
+29. io/fs
+30. encoding/csv
+31. encoding/xml
+32. encoding/base64
+33. encoding/hex
+34. encoding/binary
+35. crypto/rand
+36. crypto/sha256
+37. crypto/sha512
+38. crypto/hmac
+39. crypto/aes
+40. crypto/cipher
+41. crypto/tls
+42. crypto/x509
+43. encoding/pem
+44. mime
+45. mime/multipart
+46. html/template
+47. text/template
+48. embed
+
+============================================================ 🟡 YELLOW —
+IMPORTANT, BUT MORE SITUATIONAL
+============================================================
+
+49. cmp
+50. crypto/rsa
+51. crypto/ecdsa
+52. crypto/ed25519
+53. math
+54. math/big
+55. math/bits
+56. path
+57. runtime
+58. runtime/debug
+59. runtime/pprof
+60. net/mail
+61. testing/fstest
+
+============================================================ 🔵 BLUE —
+USEFUL / LEARN WHEN NEEDED
+============================================================
+
+62. archive/tar
+63. archive/zip
+64. compress/gzip
+65. compress/zlib
+66. compress/flate
+67. container/heap
+68. container/list
+69. container/ring
+70. image
+71. image/color
+72. image/png
+73. image/jpeg
+74. image/gif
+
+============================================================ 🟢 GREEN —
+SPECIALIZED / LEARN WHEN REQUIRED
+============================================================
+
+75. go/ast
+76. go/parser
+77. go/token
+78. go/types
+79. go/format
+80. debug/dwarf
+81. debug/elf
+82. debug/macho
+83. debug/pe
+84. plugin
+85. syscall
+
+============================================================ NEWLY ADDED

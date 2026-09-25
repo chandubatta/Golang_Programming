@@ -51,6 +51,11 @@ func Length() {
 }
 
 func Compare() {
+	//lexicographically, meaning Go compares the characters/bytes from left to right.
+	//The fact that "Hi" has 2 letters and "Hello" has 5 letters does not matter here.
+	//It's better not to think simply:
+	//"A" < "B" because A is alphabetically before B.
+
 	s1 := "hello"
 	s2 := "world"
 
@@ -64,6 +69,8 @@ func Compare() {
 	val := strings.Compare(s1, s2)
 
 	// EqualFold
+	//strings.EqualFold() checks whether two strings are equal while ignoring case differences.
+
 	equals := strings.EqualFold(s1, s2)
 
 	// Using other comparison operators
@@ -85,11 +92,13 @@ func Concatenate() {
 	// Efficient - allocates a buffer one time
 	// Use this for more than 5 concatenations
 	b := strings.Builder{}
-	b.Grow(1024)
+	b.Grow(1024) //Grow() is useful when you have a reasonable idea of the required size and want to reduce allocations.
 	b.WriteString(s1)
 	b.WriteString(" ")
 	b.WriteString(s2)
 	b.String()
+	//result:=b.String()
+	//fmt.Println(b.String())
 }
 
 func AccessIndex() {
